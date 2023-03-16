@@ -11,7 +11,7 @@
     <header>
         <nav>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="#Accessible Forms">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
@@ -46,9 +46,61 @@
           </form>
     
     </main>
+
     <footer>
         <p>&copy; 2023 Sample Website. All rights reserved.</p>
     </footer>
+
+    <script>
+        const form = document.querySelector("form");
+        const nameInput = document.querySelector("#name");
+        const emailInput = document.querySelector("#email");
+        const phoneInput = document.querySelector("#phone");
+        const messageInput = document.querySelector("#message");
+  
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+  
+          // validate inputs
+          if (nameInput.value === "") {
+            alert("Please enter your name.");
+            nameInput.focus();
+            return;
+          }
+  
+          if (emailInput.value === "") {
+            alert("Please enter your email.");
+            emailInput.focus();
+            return;
+          }
+  
+          if (phoneInput.value === "") {
+            alert("Please enter your phone number.");
+            phoneInput.focus();
+            return;
+          }
+  
+          // send data to server
+          const formData = new FormData(form);
+  
+          fetch("/submit-form.php", {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.success) {
+                alert("Your form has been submitted successfully.");
+                form.reset();
+              } else {
+                alert("There was an error submitting your form. Please try again.");
+              }
+            })
+            .catch((error) => {
+              alert("There was an error submitting your form. Please try again.");
+            });
+        });
+      </script>
     
 </body>
 </html>
