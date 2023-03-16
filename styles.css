@@ -41,14 +41,12 @@ body {
 }
 
 .image-container {
-  text-align: center;
   margin: 20px 0;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  display: block;
   margin: 0 auto;
   border: 2px solid black;
   padding: 5px;
