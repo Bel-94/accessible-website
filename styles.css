@@ -135,9 +135,9 @@ footer {
   }
 
   /* Hide the navigation menu */
-  nav ul {
+  /* nav ul {
     display: none;
-  }
+  } */
 
   /* Adjust the layout of the form */
   main input[type="text"],
