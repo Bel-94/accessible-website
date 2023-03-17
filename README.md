@@ -5,12 +5,12 @@
 <p>This is an accessible website designed to provide a great user experience for people with disabilities. The website was built using HTML, CSS, and JavaScript, with a focus on accessibility best practices such as keyboard navigation, skip links, and captioning for audio and video content. </p>
 
 ##Screenshots
-Screenshot from 2023-03-17 14-06-29.png
+<img src="img/Screenshot from 2023-03-17 14-06-29.png" alt="" />
 
 <h5>Mobile View</h5>
-Screenshot from 2023-03-17 14-08-42.png
+<img src="img/Screenshot from 2023-03-17 14-08-42.png" alt="" />
 
-Screenshot from 2023-03-17 14-08-52.png
+<img src="img/Screenshot from 2023-03-17 14-08-52.png" alt="" />
 
 <h3>Features</h3>
 <ul>
