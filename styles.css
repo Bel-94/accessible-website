@@ -102,8 +102,48 @@ footer {
   text-align: center;
 }
 
+/* Media Queries */
 @media only screen and (max-width: 768px) {
-  main {
-    margin: 1rem auto;
+   /* Set a smaller font size for body */
+   body {
+    font-size: 14px;
+  }
+
+  /* Adjust the layout of the navigation menu */
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust the layout of the form */
+  main input[type="text"],
+  main input[type="email"],
+  main input[type="tel"],
+  main textarea {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Set an even smaller font size for body */
+  body {
+    font-size: 12px;
+  }
+
+  /* Hide the navigation menu */
+  nav ul {
+    display: none;
+  }
+
+  /* Adjust the layout of the form */
+  main input[type="text"],
+  main input[type="email"],
+  main input[type="tel"],
+  main textarea {
+    font-size: 12px;
   }
 }
