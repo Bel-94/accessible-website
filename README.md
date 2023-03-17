@@ -29,7 +29,9 @@
 #####Cloning the repository
 
 git clone https://github.com/Bel-94/accessible-website.git
-cd accessible-website
+
+cd Interview-Prototype
+
 open index.html
 
 <h3>Usage</h3>
