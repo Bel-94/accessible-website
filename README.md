@@ -28,17 +28,9 @@
 
 #####Cloning the repository
 
-'''bash
-git clone https://github.com/Bel-94/accessible-website.git 
-'''
-
-'''bash
-cd Interview-Prototype
-'''
-
-'''bash
+git clone https://github.com/Bel-94/accessible-website.git
+cd accessible-website
 open index.html
-'''
 
 <h3>Usage</h3>
 <p>Once you have opened the website in your web browser, you can navigate the website using the keyboard or mouse. Use the Tab key to move between links, buttons, and form fields. Use the Enter key to activate links and buttons. You can also use the skip links to jump directly to important sections of the page.
