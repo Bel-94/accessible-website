@@ -27,12 +27,15 @@
 <p>To get started with the website, simply download or clone the repository to your local machine and open the index.html file in your web browser.</p>
 
 #####Cloning the repository
+
 '''bash
 git clone https://github.com/Bel-94/accessible-website.git 
 '''
+
 '''bash
 cd Interview-Prototype
 '''
+
 '''bash
 open index.html
 '''
