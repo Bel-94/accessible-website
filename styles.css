@@ -40,24 +40,6 @@ body {
   margin-top: 0;
 }
 
-/* Style the Audio and Video elements */
-.audio, .video {
-  margin-top: 50px;
-  text-align: center;
-}
-
-/* Style the Audio and Video headings */
-.audio h2, .video h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-/* Style the Audio and Video captions */
-.audio p, .video p {
-  margin-top: 10px;
-  font-size: 16px;
-}
-
 .image-container {
   margin: 20px 0;
 }
@@ -75,6 +57,33 @@ img {
   font-size: 16px;
   color: black;
   margin: 5px 0;
+}
+
+
+/* Style the Audio and Video elements */
+audio, video {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* style the audio and video elements */
+.media-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Style the Audio and Video headings */
+.audio h2, .video h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the Audio and Video captions */
+.audio p, .video p {
+  margin-top: 10px;
+  font-size: 16px;
 }
 
 fieldset {
